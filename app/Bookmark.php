@@ -8,7 +8,7 @@ class Bookmark extends Model
 {
     //
     /**
-     * Get the posts of the subbreddit.
+     * Get the user this belongs to.
      *
      */
     public function users() 
@@ -17,7 +17,7 @@ class Bookmark extends Model
     }
 
     /**
-     * Get the posts of the subbreddit.
+     * Get the tags for this bookmark.
      *
      */
     public function bookmarkTags() 
